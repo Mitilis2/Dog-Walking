@@ -1,0 +1,35 @@
+@media screen and (max-width: 375px) {
+  body {
+    background-color: beige;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar-container {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7em;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-left: 7%;
+  }
+  .navbar-link {
+    list-style-type: none;
+    margin-left: 7%;
+  }
+  a {
+    text-decoration: none;
+    color: purple;
+    font-weight: bolder;
+  }
+  .logo {
+    width: 35%;
+    padding: 3%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+}
