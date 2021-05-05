@@ -41,13 +41,14 @@
     flex-flow: column nowrap;
     width: 90%;
     height: 35%;
-    margin-left: 20px;
-    border: 3px solid steelblue;
+    margin-left: 3px;
+    margin-top: 5px;
+    border: 3px solid purple;
     border-radius: 10px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
     transition: transform 0.4s ease;
     color: purple;
-    position: absolute;
+
     font-size: 0.8em;
   }
   .shayne-walking {
